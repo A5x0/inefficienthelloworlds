@@ -97,8 +97,11 @@ using namespace std;
 int printhelloworld() {
   int i;
  for(i = 0; i < 1; i++){
-     cout << "Hello, World!" << end1;
+     cout << "Hello, World!" << endl;
  }
+  
+ return 0;
+}
 
 int main() {
     std::string text = "Hello, World!";
